@@ -15,3 +15,4 @@ Numerical Methods of Optimization
 2. Gradient Based Methods
   a. Bisection Method 
   b. Newton Raphson Method 
+Maths Assignment By Meghana
