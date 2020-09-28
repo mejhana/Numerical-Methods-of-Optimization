@@ -2,9 +2,9 @@ min = str2double(input('enter lower bound' ,"s"))
 max = str2double(input('enter upper bound' ,"s"))
 m = str2double(input('enter number of evaluations' ,"s"))
 k = 2
-
+l=max-min
 while(k < m )
-    lk = fibonacci(m - k + 1)/fibonacci(m+1)
+    lk = (fibonacci(m - k + 2)/fibonacci(m+2))*l
     x1 = min + lk
     x2 = max - lk
     f1 = eval(x1)
@@ -30,8 +30,6 @@ if (k == m )
     min
     max
 end
-
-
 %%
 function e = eval(x)
     e = x^2 + 54/x ;
