@@ -33,11 +33,13 @@ while(l > acc )
     end 
 end
 
-disp("the minimum value lies in range - ")
-min
-max
-disp("the length of interval is ")
-l
+if(acc <= l)
+    disp("the minimum value lies in range - ")
+    min
+    max
+    disp("the length of interval is ")
+    l
+end
 
 disp("the final interval is ")
 (b-a)* min + a
