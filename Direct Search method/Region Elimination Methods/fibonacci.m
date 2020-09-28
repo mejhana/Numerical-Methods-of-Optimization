@@ -26,7 +26,7 @@ while(k < m )
 
 end
       
-if (k == m )
+if (k == (m+1) )
     disp('min found in interval')
     min
     max
