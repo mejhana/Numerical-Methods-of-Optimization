@@ -1,6 +1,5 @@
 # Numerical-Methods-of-Optimization-
-Numerical Methods of Optimization 
-1. Direct Search Methods
+## 1. Direct Search Methods
   a. Bracketing Methods 
     i. Exhaustive Search Method
     ii. Bounding Phase Method
