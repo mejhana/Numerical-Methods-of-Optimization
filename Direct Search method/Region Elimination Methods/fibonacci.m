@@ -3,7 +3,7 @@ max = str2double(input('enter upper bound' ,"s"))
 m = str2double(input('enter number of evaluations' ,"s"))
 k = 2
 l=max-min
-while(k < m )
+while(k <= m )
 %fibonacci works differently in matlab.
     lk = (fibonacci(m - k + 2)/fibonacci(m+2))*l
     x1 = min + lk
@@ -26,7 +26,7 @@ while(k < m )
 
 end
       
-if (k == (m+1) )
+if (k == m)
     disp('min found in interval')
     min
     max
