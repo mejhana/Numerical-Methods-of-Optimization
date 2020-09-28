@@ -4,6 +4,7 @@ m = str2double(input('enter number of evaluations' ,"s"))
 k = 2
 l=max-min
 while(k < m )
+%fibonacci works differently in matlab.
     lk = (fibonacci(m - k + 2)/fibonacci(m+2))*l
     x1 = min + lk
     x2 = max - lk
