@@ -16,7 +16,7 @@
     i. Successive Quadratic Estimation Method 
     
 ## 2. Gradient Based Methods
-  a. Bisection Method 
+  ### a. Bisection Method 
   
-  b. Newton Raphson Method 
+  ### b. Newton Raphson Method 
 
